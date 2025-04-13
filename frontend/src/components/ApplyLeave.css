@@ -1,0 +1,75 @@
+.apply-leave-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  .subtitle {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .leave-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  input[type="date"],
+  select,
+  textarea,
+  input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: #4be0c2;
+    border: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    width: fit-content;
+  }
+  
+  .submit-btn:hover {
+    background-color: #38c9ac;
+  }
+  
